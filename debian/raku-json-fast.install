@@ -1,0 +1,4 @@
+lib/* usr/share/perl6/debian-sources/raku-json-fast/lib
+t/* usr/share/perl6/debian-sources/raku-json-fast/t
+META* usr/share/perl6/debian-sources/raku-json-fast
+README* usr/share/doc/raku-json-fast/

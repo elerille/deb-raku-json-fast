@@ -1,0 +1,48 @@
+Revision history for JSON-Fast
+
+0.16  2021-05-29T23:57:47+02:00
+    - Jsonify FatRat objects as floating point numbers
+
+0.15  2020-08-13T18:43:26+02:00
+    - When both match, prefer Associative over Positional
+
+0.14  2020-07-26T23:55:00+02:00
+    - Make sure hash keys are escaped again
+
+0.13  2020-07-21T00:28:54+02:00
+    - Include lizmat's much faster rewrite of parsing code, about 4.4x as fast
+    - Reword some error messages
+
+0.12  2020-07-08T21:03:47+02:00
+    - Make sure object-keyed hashes stringify keys
+
+0.11  2020-07-08T20:38:47+02:00
+    - Fix rejecting valid escape sequences sometimes
+    - Fix escaping \f and \b
+
+0.10  2019-08-30T16:47:12+02:00
+    - Enums now consistently jsonify as their keys
+    - Add :enums-as-values to override enum jsonification
+      to give values instead of keys.
+
+0.9.18  2019-07-02T03:05:24+02:00
+    - More significant improvement of to-json speed
+
+0.9.17  2019-07-02T02:47:36+02:00
+    - Slight improvement of to-json speed
+
+0.9.16  2019-07-01T19:18:14+02:00
+    - :!pretty now promises only a single line of output.
+
+0.9.15  2019-07-01T00:34:29+02:00
+    - Enums jsonify as a string of their short name again.
+
+0.9.14  2019-06-27T01:51:50+02:00
+    - Nonpretty output doesn't need a space between keys and values
+    - Unexpected extra data after parse now gives a structured exception
+      including the parsed data so far, and the position parsing ended,
+      so that multiple documents in a file can be parsed just fine.
+
+0.9.13  2019-06-07T20:54:16+02:00
+    - Fix pretty output for empty arrays/hashes
+    - Include lizmat's much faster to-json implementation

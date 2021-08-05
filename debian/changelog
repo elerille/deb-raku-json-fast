@@ -1,0 +1,5 @@
+raku-json-fast (0.16-1) UNRELEASED; urgency=medium
+
+  * Create package for Raku module JSON::Fast
+
+ -- Élerille <elerille+debian@thran.io>  Wed, 04 Aug 2021 19:03:48 +0200

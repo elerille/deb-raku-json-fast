@@ -1,0 +1,12 @@
+Source: raku-json-fast
+Maintainer: Élerille <elerille+debian@thran.io>
+Section: interpreters
+Priority: optional
+Build-Depends: debhelper-compat (= 12), dh-perl6
+Standards-Version: 4.5.1
+
+Package: raku-json-fast
+Architecture: all
+Depends: rakudo, ${misc:Depends}, raku-test
+Description: Raku module JSON::Fast
+ A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny
